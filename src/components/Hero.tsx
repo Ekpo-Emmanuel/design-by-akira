@@ -27,7 +27,7 @@ export default function Hero() {
         </div>
         <div className="flex justify-center">
           <div className="inline-flex relative mt-8 ">
-            <h1 className="text-7xl sm:text-9xl font-medium sm:font-bold tracking-tighter text-center inline-flex">
+            <h1 className="bg-[linear-gradient(to_bottom,white,rgba(0,0,0,0))] text-transparent bg-clip-text [-webkit-background-clip:text] text-7xl sm:text-9xl font-medium sm:font-bold tracking-tighter text-center inline-flex">
               One Task
               <br />
               at a Time
@@ -49,7 +49,7 @@ export default function Hero() {
           </div>
         </div>
         <div className="flex justify-center">
-          <p className="text-center text-xl tracking-tight mt-8 max-w-md text-white/80">
+          <p className="text-center text-md sm:text-xl tracking-tight mt-8 max-w-md text-white/80">
             Seamaless design subscriptions, No hiring, no micromanagenent, no hassle
           </p>
         </div>
@@ -58,7 +58,7 @@ export default function Hero() {
             Get Started
           </button> */}
           <button className="bg-white text-black font-medium py-3 px-5 rounded-full shadow-md transform transition-transform duration-300 hover:scale-105 focus:outline-none focus:ring-2 focus:ring-purple-300 hover:shadow-purple-500/50">
-            Glowing Button
+            Get Started
           </button>
         </div>
       </div>
