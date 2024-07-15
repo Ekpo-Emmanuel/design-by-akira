@@ -8,7 +8,7 @@ import ProjectShowcase from "@/components/ProjectShowcase";
 export default function Home() {
   return (
     <div>
-      <Banner />
+      {/* <Banner /> */}
       <Navbar />
       <Hero />
       <LogoTicker />

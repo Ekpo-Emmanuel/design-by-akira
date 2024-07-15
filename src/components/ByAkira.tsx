@@ -14,7 +14,7 @@ export default function ByAkira() {
                 src='https://akira-studios.vercel.app/assets/images/logo_dark.png'
                 className='filter invert size-5'
             />
-            <span>Made by Akira</span>
+            <span className='font-bold tracking-tighter text-sm'>Made by Akira</span>
         </Link>
       </div>
     </div>
