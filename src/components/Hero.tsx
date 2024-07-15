@@ -28,7 +28,7 @@ export default function Hero() {
         </div>
         <div className="flex justify-center">
           <div className="inline-flex relative mt-8 ">
-            <h1 className="text-7xl sm:text-9xl font-bold tracking-tighter text-center inline-flex">
+            <h1 className="text-7xl sm:text-9xl font-medium sm:font-bold tracking-tighter text-center inline-flex">
               One Task
               <br />
               at a Time

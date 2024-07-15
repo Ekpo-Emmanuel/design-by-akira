@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Inter, DM_Sans} from "next/font/google";
 import clsx from "clsx";
 import "./globals.css";
+import ByAkira from "@/components/ByAkira";
 
 const dmSans = DM_Sans({ subsets: ["latin"] });
 
@@ -17,7 +18,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={clsx(dmSans.className, "antialiased")}>{children}</body>
+      <body className={clsx(dmSans.className, "antialiased")}>
+        {children}
+        <ByAkira />
+      </body>
     </html>
   );
 }
