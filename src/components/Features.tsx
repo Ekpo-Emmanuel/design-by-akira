@@ -33,12 +33,12 @@ export default function Features() {
         <p className='mt-5 md:text-center text-md md:text-xl text-white/70 md:max-w-xl md:mx-auto'>
             Enjoy customizable lists, team work tools, and smart tracking all in one place. Set tasks, get reminders, and see your progress simply and quickly.
         </p>
-        <div className='mt-16 grid grid-cols-1 gap-1 sm:grid-cols-2 lg:grid-cols-3'>
+        <div className='mt-16 grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3'>
             {features.map((feature, index) => (
-                <div key={index} className="border-l border-b border-[#242424] box-border bg-[#151515] px-5 lg:px-10 pt-12 pb-5 lg:pb-8 lg:pt-24 rounded-3xl">
+                <div key={index} className="border border-[#242424] box-border  px-5 lg:px-10 pt-12 pb-5 lg:pb-8 lg:pt-24 rounded-3xl">
                 <h3 className='text-3xl lg:text-4xl font-bold tracking-tighter'>{feature.title}</h3>
                 <p className='mt-2 text-white/70 text-base sm:mt-4'>{feature.description}</p>
-                <div className='mt-6 inline-flex justify-center h-36 w-full bg-white/10 text-black items-center rounded-[0.75rem] box-border'>
+                <div className='mt-6 inline-flex justify-center h-[12rem] w-full bg-white/10 text-black items-center rounded-[0.75rem] box-border'>
                     {/* icons */}
                 </div>
             </div>
