@@ -1,16 +1,16 @@
 import React from "react";
 import Image from "next/image";
-import LogoImage from "../../assets/images/logo.svg";
+import LogoImage from "../../assets/images/logo.png";
 import MenuIcon from "../../assets/icons/menu_icon.svg"
 
 export default function Navbar() {
   return (
-    <div className="bg-black">
+    <div className="bg-black justify-center w-full mx-auto ">
         <div className="px-4">
-        <div className="py-4 flex items-center justify-between">
+        <div className="py-4 flex items-center justify-between lg:px-12 max-w-7xl">
             <div className="relative">
-                <div className="absolute w-full top-2 bottom-0 bg-[linear-gradient(to_right,#F87BFF,#FFDD9B,#C2F0B1,#2FD8FE)] blur-md"></div>
-                <LogoImage className="relative w-12 h-12" />
+                {/* <div className="absolute w-full top-2 bottom-0 bg-[linear-gradient(to_right,#F87BFF,#FFDD9B,#C2F0B1,#2FD8FE)] blur-md"></div> */}
+                <Image src={LogoImage} alt="Design By Akira Logo" className="relative w-20 h-auto" />
             </div>
             <div className="border border-white border-opacity-30 h-10 w-10 inline-flex justify-center items-center rounded-lg sm:hidden">
                 <MenuIcon className="text-white" />
