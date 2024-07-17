@@ -6,6 +6,7 @@ import LogoTicker from "@/components/LogoTicker";
 import { MarqueeDemo } from "@/components/Marquee";
 import Navbar from "@/components/Navbar/Navbar";
 import ProjectShowcase from "@/components/ProjectShowcase";
+import TextMarquee from "@/components/TextMarquee";
 
 export default function Home() {
   return (

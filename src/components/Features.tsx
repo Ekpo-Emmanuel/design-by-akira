@@ -29,7 +29,7 @@ export default function Features() {
   return (
     <div className='bg-black text-white py-[72px] sm:py-24'>
       <div className='container'>
-        <h2 className={clsx("md:text-center text-6xl md:text-7xl font-bold", dragon.className)}>Everything You Need</h2>
+        <h2 className={clsx("md:text-center text-6xl md:text-7xl font-bold md:tracking-[3px]", dragon.className)}>Everything You Need</h2>
         <p className='mt-5 md:text-center text-md md:text-xl text-white/70 md:max-w-xl md:mx-auto'>
             Enjoy customizable lists, team work tools, and smart tracking all in one place. Set tasks, get reminders, and see your progress simply and quickly.
         </p>

@@ -2,6 +2,9 @@ import React from "react";
 import localfont from "next/font/local";
 import clsx from "clsx";
 import { RiVerifiedBadgeFill } from "react-icons/ri";
+import { ArrowUpRight } from 'lucide-react';
+import TextMarquee from "@/components/TextMarquee";
+
 
 const dragon = localfont({
   src: [
@@ -27,7 +30,7 @@ export default function AboutUs() {
             <div>
               <h2
                 className={clsx(
-                  "md:text-center lg:text-left text-6xl md:text-7xl font-bold",
+                  "md:text-center lg:text-left text-6xl md:text-7xl md:tracking-[3px] font-bold",
                   dragon.className
                 )}
               >
@@ -59,7 +62,7 @@ export default function AboutUs() {
               <ul className="flex flex-col gap-4">
                 <li className="flex items-start gap-3">
                   <RiVerifiedBadgeFill size={25} />
-                  <span className=" text-lg md:text-xl">
+                  <span className="text-lg md:text-xl">
                     Your Site Will Be More Visible And Accessible We Are
                     Creative
                   </span>
@@ -78,8 +81,18 @@ export default function AboutUs() {
                 </li>
               </ul>
             </div>
+            <div className="mt-10">
+                <a 
+                    href="#" 
+                    className="text-lg underline-offset-2 font-medium flex gap-2 items-center hover:text-black transition-colors"
+                >
+                    More about us
+                    <ArrowUpRight />
+                </a>
+            </div>
           </div>
         </div>
+        <TextMarquee />
       </div>
     </div>
   );
