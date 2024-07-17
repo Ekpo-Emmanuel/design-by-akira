@@ -1,3 +1,4 @@
+import AboutUs from "@/components/AboutUs";
 import Banner from "@/components/Banner";
 import Features from "@/components/Features";
 import Hero from "@/components/Hero";
@@ -15,7 +16,8 @@ export default function Home() {
       <MarqueeDemo />
       {/* <LogoTicker /> */}
       <Features />
-      <ProjectShowcase />
+      <AboutUs />
+      {/* <ProjectShowcase /> */}
     </div>
   );
 }
