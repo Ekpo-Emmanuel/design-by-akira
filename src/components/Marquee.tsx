@@ -66,7 +66,7 @@ const ReviewCard = ({
 
 export function MarqueeDemo() {
   return (
-    <div className="relative flex  py-[72px] sm:py-24 w-full flex-col items-center justify-center overflow-hidden bg-black md:shadow-xl">
+    <div className="relative flex px-8 py-[72px] sm:py-24 w-full flex-col items-center justify-center overflow-hidden bg-black md:shadow-xl">
     <h2 className="text-xl sm:text-center font-bold uppercase text-white">WE'VE WORKED WITH AMAZING BRANDS</h2>
       <Marquee pauseOnHover className="[--duration:20s] mt-10">
         {brandImages.map((image, index) => (

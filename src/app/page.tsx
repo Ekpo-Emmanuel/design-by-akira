@@ -11,6 +11,7 @@ import WhatWeDo from "@/components/WhatWeDo";
 import RecentWorks from "@/components/RecentWorks";
 import Cta1 from "@/components/CTAs/Cta1";
 import TestimonialContainer from "@/components/Testimonials/TestimonialContainer";
+import TextReveal from "@/components/About Us/TextReveal";
 
 export default function Home() {
   return (
@@ -22,6 +23,7 @@ export default function Home() {
       {/* <Hero /> */}
       <TestimonialContainer />
       <MarqueeDemo />
+      <TextReveal text="Discover the power of exceptional design with Design by Akira, where creativity meets innovation. Our team of expert designers is dedicated to transforming your vision into stunning visual experiences that captivate and engage. Partner with us to elevate your brand and stand out in a crowded market with designs that leave a lasting impression." />
       {/* <LogoTicker /> */}
       {/* <Features /> */}
       {/* <AboutUs /> */}
