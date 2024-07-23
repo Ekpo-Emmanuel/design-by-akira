@@ -4,6 +4,8 @@ import clsx from "clsx";
 import "./globals.css";
 import ByAkira from "@/components/ByAkira";
 import Navbar from "@/components/Navbar/Navbar";
+import Navbar1 from "@/components/Navbar/Navbar1";
+
 
 const dmSans = DM_Sans({ subsets: ["latin"] });
 const inter = Inter({ subsets: ["latin"] });
@@ -23,7 +25,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={clsx(inter.className, "antialiased")}>
-        <Navbar />
+        <Navbar1 />
         {children}
         {/* <ByAkira /> */}
       </body>

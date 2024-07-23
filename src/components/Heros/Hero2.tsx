@@ -29,7 +29,7 @@ export default function Hero2() {
         <div className="mt-10">
           <h1
             className={clsx(
-              "relative antialiased text-5xl sm:text-6xl md:text-7xl lg:text-[6rem] md:font-bold font-medium uppercase"
+              "relative antialiased text-5xl sm:text-6xl md:text-7xl lg:text-[5rem] md:font-bold font-medium uppercase"
             )}
           >
             World class Designs,

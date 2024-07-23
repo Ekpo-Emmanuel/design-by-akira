@@ -1,4 +1,6 @@
 import React from "react";
+import Link from "next/link";
+
 
 export default function Banner() {
   return (
@@ -6,9 +8,9 @@ export default function Banner() {
       <div className="container">
         <p className="font-medium">
           <span className="hidden sm:inline">Get started with Next.js today - </span> 
-          <a href="#" className="underline underline-offset-4 font-medium">
+          <Link href="#" className="underline underline-offset-4 font-medium">
             Explore the Demo
-          </a>
+          </Link>
         </p>
       </div>
     </div>

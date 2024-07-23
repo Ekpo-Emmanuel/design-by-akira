@@ -4,6 +4,7 @@ import clsx from "clsx";
 import { RiVerifiedBadgeFill } from "react-icons/ri";
 import { ArrowUpRight } from 'lucide-react';
 import TextMarquee from "@/components/TextMarquee";
+import Link from "next/link";
 
 
 const dragon = localfont({
@@ -82,13 +83,13 @@ export default function AboutUs() {
               </ul>
             </div>
             <div className="mt-10">
-                <a 
+                <Link 
                     href="#" 
                     className="text-lg underline-offset-2 font-medium flex gap-2 items-center hover:text-black transition-colors"
                 >
                     More about us
                     <ArrowUpRight />
-                </a>
+                </Link>
             </div>
           </div>
         </div>
