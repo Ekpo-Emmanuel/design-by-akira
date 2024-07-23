@@ -5,7 +5,7 @@ import MenuIcon from "../../assets/icons/menu_icon.svg"
 
 export default function Navbar() {
   return (
-    <div className="bg-black justify-center w-full mx-auto ">
+    <div className="justify-center w-full mx-auto absolute top-0">
         <div className="px-4">
         <div className="py-4 flex items-center justify-between lg:px-12 max-w-7xl">
             <div className="relative">

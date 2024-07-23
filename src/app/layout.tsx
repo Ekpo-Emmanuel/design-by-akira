@@ -3,8 +3,11 @@ import { Inter, DM_Sans} from "next/font/google";
 import clsx from "clsx";
 import "./globals.css";
 import ByAkira from "@/components/ByAkira";
+import Navbar from "@/components/Navbar/Navbar";
 
 const dmSans = DM_Sans({ subsets: ["latin"] });
+const inter = Inter({ subsets: ["latin"] });
+
 
 
 export const metadata: Metadata = {
@@ -19,7 +22,8 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={clsx(dmSans.className, "antialiased")}>
+      <body className={clsx(inter.className, "antialiased")}>
+        <Navbar />
         {children}
         {/* <ByAkira /> */}
       </body>

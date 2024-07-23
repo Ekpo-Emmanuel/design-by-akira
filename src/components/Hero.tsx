@@ -36,7 +36,7 @@ export default function Hero() {
         </div> */}
         <div className="flex justify-center">
           <div className="inline-flex relative mt-8 ">
-            <h1 className={clsx(dragon.className, "relative antialiased md:tracking-[3px] bg-[linear-gradient(to_bottom,white,white,white,rgba(255,255,255,0))] text-transparent bg-clip-text [-webkit-background-clip:text] text-7xl sm:text-9xl md:text-[9rem] md:leading-none font-bold md:font-extrabold text-left sm:text-center inline-flex")}>
+            <h1 className={clsx(dragon.className, "relative antialiased md:tracking-[3px] bg-[linear-gradient(to_bottom,white,white,white,rgba(255,255,255,0))] text-transparent bg-clip-text [-webkit-background-clip:text] text-7xl sm:text-9xl md:text-[9rem] md:leading-none font-bold md:font-extrabold text-center inline-flex")}>
               World class
               designs,
               <br />
@@ -61,7 +61,7 @@ export default function Hero() {
           </div>
         </div>
         <div className="flex justify-center">
-          <p className="sm:first:text-center text-md sm:text-xl tracking-tight mt-8 max-w-md text-white/80">
+          <p className="text-center text-md sm:text-xl tracking-tight mt-8 max-w-md text-white/80">
             Seamaless design subscriptions, No hiring, no micromanagenent, no hassle
           </p>
         </div>

@@ -8,3 +8,21 @@
     text-wrap: balance;
   }
 }
+
+
+@keyframes up-and-down {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(20px); /* Adjust the value to control the movement distance */
+  }
+}
+
+.move-up-down {
+  animation: up-and-down 2s infinite; /* Adjust the duration as needed */
+}
+
+.dfad {
+  color: #6e2424;
+}

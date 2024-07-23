@@ -53,7 +53,7 @@ const ReviewCard = ({
   image: string;
 }) => {
   return (
-    <div className="mx-10">
+    <div className="mx-20">
       <img
         src={image}
         alt="brand"
@@ -74,13 +74,13 @@ export function MarqueeDemo() {
           <ReviewCard key={index} image={image} />
         ))}
       </Marquee>
-      <Marquee pauseOnHover reverse className="[--duration:20s] mt-10">
+      {/* <Marquee pauseOnHover reverse className="[--duration:20s] mt-10">
         {brandImages.map((image, index) => (
           <ReviewCard key={index} image={image} />
         ))}
-      </Marquee>
-      <div className="pointer-events-none absolute inset-y-0 left-0 w-1/3 bg-gradient-to-r from-black"></div>
-      <div className="pointer-events-none absolute inset-y-0 right-0 w-1/3 bg-gradient-to-l from-black"></div>
+      </Marquee> */}
+      {/* <div className="pointer-events-none absolute inset-y-0 left-0 w-1/3 bg-gradient-to-r from-black"></div>
+      <div className="pointer-events-none absolute inset-y-0 right-0 w-1/3 bg-gradient-to-l from-black"></div> */}
     </div>
   );
 }
