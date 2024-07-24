@@ -7,6 +7,7 @@ import Hand1 from "../assets/images/hand1.png";
 import Hand2 from "../assets/images/hand2.png";
 import localfont from "next/font/local";
 import clsx from "clsx";
+import Link from "next/link";
 
 const dragon = localfont({ 
   src: [{
@@ -69,9 +70,9 @@ export default function Hero() {
           {/* <button className="bg-white text-black py-3 px-5 rounded-lg font-medium">
             Get Started
           </button> */}
-          <button className="bg-white w-full sm:w-auto text-black font-medium py-3 px-5 rounded-lg shadow-md transform transition-transform duration-300 hover:scale-105 focus:outline-none focus:ring-2 focus:ring-purple-300 hover:shadow-purple-500/50">
+          <Link href="/contact-us" className="bg-white w-full sm:w-auto text-black font-medium py-3 px-5 rounded-lg shadow-md transform transition-transform duration-300 hover:scale-105 focus:outline-none focus:ring-2 focus:ring-purple-300 hover:shadow-purple-500/50">
             Get Started
-          </button>
+          </Link>
         </div>
       </div>
     </div>

@@ -44,20 +44,20 @@ export default function Navbar1() {
             >
               About
             </Link>
-            <Link
+            {/* <Link
               href="#"
               className="text-white uppercase text-[15px] font-semibold hover:text-opacity-100 transition"
               onClick={handleCloseMenu}
             >
               Works
-            </Link>
-            <Link
+            </Link> */}
+            {/* <Link
               href="#"
               className="text-white uppercase text-[15px] font-semibold hover:text-opacity-100 transition"
               onClick={handleCloseMenu}
             >
               Faqs
-            </Link>
+            </Link> */}
             <Link
               href="/contact-us"
               className="text-black text-center text-[15px] font-semibold uppercase rounded-full bg-white px-[30px] py-[17px] transition hover:bg-[#1F1F1F] hover:text-white"

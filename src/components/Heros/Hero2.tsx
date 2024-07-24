@@ -1,6 +1,7 @@
 import localfont from "next/font/local";
 import clsx from "clsx";
 import Mouse from "@/components/SVG/Mouse";
+import Link from "next/link";
 
 
 const dragon = localfont({
@@ -38,9 +39,11 @@ export default function Hero2() {
             <br />
             fingertips
           </h1>
-          <button className="mt-10 text-black text-center text-[15px] font-semibold uppercase rounded-full bg-white px-[30px] py-[17px] transition hover:bg-[#1F1F1F] hover:text-white hover:font-bold">
-            View Our work
-          </button>
+          <Link href="/contact-us">
+            <button  className="mt-10 text-black text-center text-[15px] font-semibold uppercase rounded-full bg-white px-[30px] py-[17px] transition hover:bg-[#1F1F1F] hover:text-white hover:font-bold">
+              Get started  
+            </button>
+          </Link>
           <div className="mt-20 flex justify-center md:absolute md:left-1/2 md:-translate-x-1/2">  
             <Mouse />
           </div>

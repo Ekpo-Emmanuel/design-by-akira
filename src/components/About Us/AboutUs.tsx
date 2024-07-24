@@ -1,4 +1,5 @@
 import React from "react";
+import Link from "next/link";
 
 export default function AboutUs() {
   return (
@@ -12,22 +13,16 @@ export default function AboutUs() {
           src="./images/services/figma.webp"
           className="absolute bottom-20 right-10 lg:right-32 size-20 lg:size-24"
         />
-        <p className="relative text-[25px] md:text-[22px] font-semibold text-center tracking-tighter leading-[35px] lg:w-1/2 lg:mx-auto">
-          FORGE X, THE CREATIVE MINDS BEHIND AGENCY, NOTICED A GAP IN THE WORLD
-          — A VOID OF ARTISTIC EXPRESSION, A MONOTONOUS BRANDING LANDSCAPE, AND
-          A SIGNIFICANT NEED FOR ORIGINALITY AND ELEGANCE. DRAWING ON THEIR
-          BACKGROUND IN INDIE FILM, THEY EAGERLY EMBRACED THE CHALLENGE TO
-          INFUSE CREATIVITY WITH A BOLD, PROACTIVE SPIRIT.
+        <p className="relative text-[25px] md:text-[22px] font-semibold text-center tracking-tighter leading-[35px] lg:w-1/2 lg:mx-auto uppercase">
+          Design by akira, identified a significant gap in the digital landscape—a lack of artistic expression, monotonous branding, and a pressing need for originality and elegance. With a rich background in indie film, they eagerly embraced the challenge to infuse creativity with a bold, proactive spirit.
           <br />
           <br />
-          THEY CHAMPION THE ART OF STORYTELLING IN EVERY PROJECT. TODAY, THIS
-          PRINCIPLE DRIVES AGENCĒ AS A BEACON OF INNOVATION AND DISTINCTIVENESS
-          IN A WORLD HUNGRY FOR ITS MAGIC. ‍
+          Here, we champion the art of storytelling in every project. This principle drives us as a beacon of innovation and distinctiveness in a world hungry for our magic. Our expertise spans web design, SEO, and digital strategy, ensuring that each project not only stands out but also performs exceptionally well.
         </p>
         <div className="flex justify-center">
-          <button className="mt-10 text-black mx-auto w-fit text-center text-[16px] font-medium uppercase rounded-full bg-white px-[30px] py-[16px] transition hover:bg-[#1F1F1F] hover:text-white hover:font-bold">
+          <Link href="/contact-us" className="mt-10 text-black mx-auto w-fit text-center text-[16px] font-medium uppercase rounded-full bg-white px-[30px] py-[16px] transition hover:bg-[#1F1F1F] hover:text-white hover:font-bold">
             Join us
-          </button>
+          </Link>
         </div>
       </div>
     </div>

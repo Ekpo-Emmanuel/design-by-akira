@@ -13,6 +13,7 @@ import Cta1 from "@/components/CTAs/Cta1";
 import TestimonialContainer from "@/components/Testimonials/TestimonialContainer";
 import TextReveal from "@/components/About Us/TextReveal";
 
+
 export default function Home() {
   return (
     <div>

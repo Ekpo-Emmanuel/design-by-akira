@@ -1,5 +1,6 @@
 import React from "react";
 import { TestimonailMarquee } from "./TestimonailMarquee";
+import Link from "next/link";
 
 export default function TestimonialContainer() {
   return (
@@ -19,11 +20,11 @@ export default function TestimonialContainer() {
       <div className="pt-20">
         <TestimonailMarquee />
       </div>
-      <div className="flex justify-center">
+      <Link href="/contact-us">
         <button className="mt-10 text-black text-center text-[15px] font-semibold uppercase rounded-full bg-white px-[30px] py-[17px] transition hover:bg-[#1F1F1F] hover:text-white hover:font-bold">
-            Work with us
+          Work with us
         </button>
-      </div>
+      </Link>
     </div>
   );
 }

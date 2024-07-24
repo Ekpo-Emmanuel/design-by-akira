@@ -1,4 +1,5 @@
 import React from "react";
+import Link from "next/link";
 
 export default function Cta1() {
   return (
@@ -10,9 +11,11 @@ export default function Cta1() {
             <span>/ </span> 
             <span className="font-semibold text-white/70">WORK.</span>
           </p>
-          <button className="mt-5 text-black text-center text-[15px] font-semibold uppercase rounded-full bg-white px-[30px] py-[17px] transition hover:bg-[#1F1F1F] hover:text-white hover:font-bold">
-            Get a custom proposal
-          </button>
+          <Link href="/contact-us">
+            <button  className="mt-10 text-black text-center text-[15px] font-semibold uppercase rounded-full bg-white px-[30px] py-[17px] transition hover:bg-[#1F1F1F] hover:text-white hover:font-bold">
+              Get a custom proposal
+            </button>
+          </Link>
         </div>
       </div>
     </div>
